@@ -57,7 +57,7 @@ text1 = '''
 st.sidebar.write(text1, unsafe_allow_html=True)
 st.sidebar.markdown('**<u>Making 9jaWeatherbot</u>**', unsafe_allow_html=True)
 text2 = '''
-<justify> In making 9jaWeatherbot, Rofiatu used daily historical data from the Meteostat api from the period January 1 2012 to May 18 2023. Thsi data was used to build a model that leveraged the XGBoost Regressor to predict temperature for the date selected. The api only had historical data for 26 states, and a few features. As such, this app may be limited to the extent of the historical data available for use in training the model. </justify>
+<justify> In making 9jaWeatherbot, Rofiatu used daily historical data from the Meteostat API from the period January 1 2012 to May 18 2023. This data was used to build a model that leveraged the XGBoost Regressor to predict temperature for the date selected. The API only had historical data for 26 states, and a few features. As such, this app may be limited to the extent of the historical data available for use in training the model. </justify>
 '''
 st.sidebar.write(text2, unsafe_allow_html=True)
 
