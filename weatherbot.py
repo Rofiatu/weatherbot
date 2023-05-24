@@ -52,7 +52,7 @@ if button:
 
 st.sidebar.markdown('**<u>About 9jaWeatherbot</u>**', unsafe_allow_html=True)
 text1 = '''
-<justify>9jaWeatherbot was created by Rofiatu Alli, a student of the Pumpkin Redeemer\'s Cohort of the GoMyCode Data Science class. This project was created as her final project for the programme, and while she knows it is not a perfect app, she put in all of the resources that had been taught to her in the course of her programme to come up with this near-masterpiece, and she hopes you find some joy while using it (in the absence of being able to find the most accurate weather data.</justify>
+<justify>9jaWeatherbot was created by Rofiatu Alli, a student of the Pumpkin Redeemer\'s Cohort of the GoMyCode Data Science class. This project was created as her final project for the programme, and while she knows it is not a perfect app, she put in all of the resources that had been taught to her in the course of her programme to come up with this near-masterpiece, and she hopes you find some joy while using it (in the absence of being able to find the most accurate weather data).</justify>
 '''
 st.sidebar.write(text1, unsafe_allow_html=True)
 st.sidebar.markdown('**<u>Making 9jaWeatherbot</u>**', unsafe_allow_html=True)
