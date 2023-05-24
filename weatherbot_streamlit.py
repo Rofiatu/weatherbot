@@ -19,8 +19,6 @@ import joblib
 import meteostat
 from meteostat import Stations, Daily, Monthly
 from db_settings import update_table, get_all_data_from_db, connect_to_db
-from gtts import gTTS
-import playsound
 import warnings
 import sqlite3
 warnings.filterwarnings('ignore')
