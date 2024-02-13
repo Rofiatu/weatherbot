@@ -1,7 +1,11 @@
 import spacy
 import requests
+import os
+from dotenv import load_dotenv
 
-api_key = "b35710991c78f784118060233839818a"
+load_dotenv()
+
+api_key = os.getenv('WEATHER_API_KEY')
 
 def get_weather(city_name):
     api_url = "http://api.openweathermap.org/data/2.5/weather?q={}&appid={}".format(city_name, api_key)
